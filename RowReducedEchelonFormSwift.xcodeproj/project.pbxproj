@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E3551FC51BAC7EF900C7CBF2 /* SolutionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3551FC41BAC7EF900C7CBF2 /* SolutionController.swift */; };
 		E3682E5E1BAA5CA10083E0AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3682E5D1BAA5CA10083E0AE /* AppDelegate.swift */; };
 		E3682E601BAA5CA10083E0AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3682E5F1BAA5CA10083E0AE /* ViewController.swift */; };
 		E3682E631BAA5CA10083E0AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3682E611BAA5CA10083E0AE /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E3551FC41BAC7EF900C7CBF2 /* SolutionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolutionController.swift; sourceTree = "<group>"; };
 		E3682E581BAA5CA10083E0AE /* RowReducedEchelonFormSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RowReducedEchelonFormSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3682E5C1BAA5CA10083E0AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3682E5D1BAA5CA10083E0AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				E3682E5D1BAA5CA10083E0AE /* AppDelegate.swift */,
 				E3682E5F1BAA5CA10083E0AE /* ViewController.swift */,
 				E3682E611BAA5CA10083E0AE /* Main.storyboard */,
+				E3551FC41BAC7EF900C7CBF2 /* SolutionController.swift */,
 				E3682E641BAA5CA10083E0AE /* Images.xcassets */,
 				E3682E661BAA5CA10083E0AE /* LaunchScreen.xib */,
 				E3682E5B1BAA5CA10083E0AE /* Supporting Files */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3682E601BAA5CA10083E0AE /* ViewController.swift in Sources */,
+				E3551FC51BAC7EF900C7CBF2 /* SolutionController.swift in Sources */,
 				E3682E5E1BAA5CA10083E0AE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +413,7 @@
 				E3682E791BAA5CA10083E0AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E3682E7A1BAA5CA10083E0AE /* Build configuration list for PBXNativeTarget "RowReducedEchelonFormSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				E3682E7C1BAA5CA10083E0AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
